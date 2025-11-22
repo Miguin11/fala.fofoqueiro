@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(254, 254, 229)
+
+}
+#font{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+#ff {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: auto;
+    margin-left: auto;
+    margin: 0%;
+    font-size: 100px;
+}
+
+#ul1 {
+    list-style: none;
+    display: inline;
+    gap: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#rodapé {
+    text-align: center;
+}
+#footer {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+.destaques {
+    text-decoration:underline;
+    text-decoration-thickness: 1.3px;
+}
+#introdução {
+    color: brown;
+    font-size: 50px
+    
+}
+.titulo {
+    color: brown;
+}
+
+.noticia {
+  background-color: rgba(165, 42, 42, 0.653);        
+  border-radius: 10px;           
+  padding: 5px;                 
+  margin-bottom: 20px;           
+  color: rgb(0, 0, 0);                  
+  box-shadow: 1px 5px 10px rgb(0, 0, 0);
+  margin-left: 50px;
+  margin-right: 50px; 
+}
+
+button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 20px;
+    background: linear-gradient(135deg, rgba(165, 42, 42, 0.653), brown);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: transform 0.2s, background 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(270deg, rgba(165, 42, 42, 0.653), brown);
+  }
+
+a {
+    text-decoration: none;
+	color: white;
+    background-color: rgba(127, 35, 35, 0.653);
+    cursor: progress;
+    border-radius: 5%;
+}
